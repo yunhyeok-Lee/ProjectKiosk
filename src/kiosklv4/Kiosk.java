@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
-    //    List<MenuItem> menuItems = new ArrayList<>();
-//    List<String> menuCategory = new ArrayList<>();
+    List<MenuItem> menuItems = new ArrayList<>();
+    List<String> menuCategory = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
     Menu menu = new Menu();
 

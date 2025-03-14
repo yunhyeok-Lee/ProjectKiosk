@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
-    //    List<MenuItem> menuItems = new ArrayList<>();
-//    List<String> menuCategory = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
     Menu menu = new Menu();
 
@@ -39,7 +37,6 @@ public class Kiosk {
                 scanner.nextLine();
 
                 if (menuNumber >= 1 && menuNumber <= burgers.size()) {
-//                    MenuItem selectBurger = burgers.get(menuNumber - 1);
                     System.out.println("선택한 메뉴 : " + burgers.get(menuNumber - 1).getName() + "   | W " + burgers.get(menuNumber - 1).getPrice() + " |   " + burgers.get(menuNumber - 1).getDescription());
                 }
 
@@ -56,7 +53,6 @@ public class Kiosk {
                 scanner.nextLine();
 
                 if (menuNumber >= 1 && menuNumber <= drinks.size()) {
-//                    MenuItem selectDrink = drinks.get(menuNumber - 1);
                     System.out.println("선택한 메뉴 : " + drinks.get(menuNumber - 1).getName() + "   | W " + drinks.get(menuNumber - 1).getPrice() + " |   " + drinks.get(menuNumber - 1).getDescription());
                 }
 
@@ -72,80 +68,13 @@ public class Kiosk {
                 scanner.nextLine();
 
                 if (menuNumber >= 1 && menuNumber <= desserts.size()) {
-//                    MenuItem selectDessert = desserts.get(menuNumber - 1);
-                    System.out.println("선택한 메뉴 : " + desserts.get(menuNumber -1).getName() + "   | W " + desserts.get(menuNumber -1).getPrice() + " |   " + desserts.get(menuNumber -1).getDescription());
+                    System.out.println("선택한 메뉴 : " + desserts.get(menuNumber - 1).getName() + "   | W " + desserts.get(menuNumber - 1).getPrice() + " |   " + desserts.get(menuNumber - 1).getDescription());
                 }
             }
             if (number == 0) {
                 System.out.println("주문을 종료합니다.");
                 break;
             }
-
-//            int menuNumber = scanner.nextInt();
-//            scanner.nextLine();
-//            if (menuNumber >=1 && menuNumber <= burgers.size()){
-//                MenuItem selectBurger = burgers.get(menuNumber -1);
-//                System.out.println("선택한 메뉴 : " + burgers.get(menuNumber -1).getName() + "   | W " + burgers.get(menuNumber -1).getName() + " |   " + burgers.get(menuNumber -1).getName());
-            }
-
-//            if (menuNumber >=1 && menuNumber <= drinks.size()){
-//                MenuItem selectDrink = drinks.get(menuNumber -1);
-//                System.out.println("선택한 메뉴 : " + drinks.get(menuNumber -1).getName() + "   | W " + drinks.get(menuNumber -1).getName() + " |   " + drinks.get(menuNumber -1).getName());
-//            }
-//
-//            if (menuNumber >=1 && menuNumber <= desserts.size()){
-//                MenuItem selectDessert = desserts.get(menuNumber -1);
-//                System.out.println("선택한 메뉴 : " + selectDessert.getName() + "   | W " + selectDessert.getPrice() + " |   " + selectDessert.getDescription());
-//            }
-
-//             if (menuNumber == 0){
-//                System.out.println("주문을 종료합니다.");
-//                break;
-            }
-
         }
-
-
-
-
-//
-//                if (){
-//                    List<MenuItem> burgers = menu.getMenuItems()
-//                }
-//
-//
-//                if(number1 == 2){
-//                    System.out.println(" ");
-//                    System.out.println("[ DRINKS MENU ]" );
-//                    List<MenuItem> drinks =menu.getDrinkMenu();
-//                    for()
-//                }
-//                int number2 =scanner.nextInt();
-//                scanner.nextLine();
-//
-//                switch (number2) {
-//                    case 1:
-//                        System.out.println("선택한 메뉴 : " + burgers.get(0).getName() + "   | W " + burgers.get(0).getPrice() + " |   " + burgers.get(0).getDescription());
-//                        // menuItem.get(0); 으로만 해서 soutv 했을땐, kiosk_lv2.lv2.MenuItem@52cc8049 와 같이 나왔음. >>  @~~~ 주소를 나타낸다.
-//                        break;
-//                    case 2:
-//                        System.out.println("선택한 메뉴 : " + burgers.get(1).getName() + "   | W " + burgers.get(1).getPrice() + " |   " + burgers.get(1).getDescription());
-//                        break;
-//                    case 3:
-//                        System.out.println("선택한 메뉴 : " + burgers.get(2).getName() + "   | W " + burgers.get(2).getPrice() + " |   " + burgers.get(2).getDescription());
-//                        break;
-//                    case 4:
-//                        System.out.println("선택한 메뉴 : " + burgers.get(3).getName() + "   | W " + burgers.get(3).getPrice() + " |   " + burgers.get(3).getDescription());
-//                        break;
-//
-//                }
-//                if (number2 == 0) {
-//                    System.out.println("주문을 종료합니다.");
-//                    break;
-//                }
-//            }
-//
-//        }
-
-
-
+    }
+}
